@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="player">
+            <!--ENCABEZADO-->
             <div class="player__controls">
-                <div class="player__btn player__btn--smal">
-                    <i class="fas fa-arrow-left"></i>
+                <div class="player__btn player__btn--small">
+                    <i class="fas fa-long-arrow-alt-left"></i>
                 </div>
                 <h5 class="player__title">playing now</h5>
                 <div class="player__btn player__btn--small">
@@ -22,14 +26,14 @@
 
             <div class="player__album">
                 <img 
-                src="imagen/hoja venenosa.jpg" 
+                src="imagen/travis.jpg" 
                 alt="" 
                 class="player__img"
                 >
             </div>
 
-            <h2 class="player__artist">Disclosure</h2>
-            <h3 class="player__song">Lanch</h3>
+            <h2 class="player__artist">Travis Scott</h2>
+            <h3 class="player__song">HIGHEST IN THE ROOM</h3>
 
             <input type="range" value="20" min="0" class="player__level">
 
@@ -39,9 +43,10 @@
             </div>
 
             <audio class="player__audio" controls id="audio">
-                <source src="#" type="audio/mpeg">
+                <source src="audio/travis-scott.mp3" type="audio/mpeg">
             </audio>
 
+            <!--CONTROLES REPRODUCIR-->
             <div class="player__controls">
                 <div class="player__btn player__btn--medium">
                     <i class="fas fa-backward"></i>
@@ -53,7 +58,7 @@
                 </div>
                 
                 <div class="player__btn player__btn--medium">
-                    <i class="fas fa-backward"></i> 
+                    <i class="fas fa-forward"></i> 
                 </div>                
             </div>
 

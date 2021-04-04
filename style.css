@@ -46,7 +46,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center ;
-    box-shadow: var(--gray);
+    box-shadow: -8px -8px 20px #fff9, -1px -1px 8px 20px #0001, 5px 5px 6px #0001;
+    color: var(--gray);
 }
 .player__btn:active {
     box-shadow: inset -8px -8px 20px #fff9, inset 8px 8px 20px #0003, inset 5px 5px 6px;

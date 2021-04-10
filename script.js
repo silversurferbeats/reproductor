@@ -12,3 +12,13 @@ playPause.addEventListener('click', () => {
         playPause.querySelector('.play-btn').classList.toggle('hide');
     }
 }); 
+
+
+/******DARK MODE */
+
+const body = document.querySelector(".container");
+const mode = document.querySelector("#night");
+
+mode.addEventListener("change", () => {
+  body.classList.toggle("nightMode");
+});

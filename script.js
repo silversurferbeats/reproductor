@@ -17,8 +17,10 @@ playPause.addEventListener('click', () => {
 /******DARK MODE */
 
 const body = document.querySelector(".container");
+const player =  document.querySelector('.player');
 const mode = document.querySelector("#night");
 
 mode.addEventListener("change", () => {
   body.classList.toggle("nightMode");
+  player.classList.toggle('nightMode');
 });
